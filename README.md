@@ -33,15 +33,7 @@ Setup and running
   * run $ACCUMULO_HOME/bin/create_gem_tables.sh"
   * when propmted for a password for the created "gem" user, enter "gem"
   * go get a "red bull" this may take a while to run
-1. Test the AgeOff Filter by entering the following into the accumulo shell
-  * Enter the shell: $ACCUMULO_HOME/bin/accumulo shell -u gem -p gem
-  * table triplestore_spo
-  * insert a b c "{AGEOFF=5000}"
-  * # Verfy one row returns within the 5 second window of the insert
-  * scan
-  * # Wait 5 seconds, verify no results are returned
-  * scan
-1. cd into the /vagrant directory on the vm.  This is a shared folder with your project root folder.  You can run mvn commands here
+1. cd into the /vagrant directory on the vm.  This is a shared folder with your project root folder.  You can run mvn commands here, including your integration tests which connet to and use GEM
 
 
 ### Common Vagrant Commands
