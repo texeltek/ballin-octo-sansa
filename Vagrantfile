@@ -20,8 +20,8 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.provision :puppet do |puppet|
-    puppet.module_path = "puppet/modules"
-    puppet.manifests_path = "puppet/manifests"
+    puppet.module_path = "ballin-octo-sansa/puppet/modules"
+    puppet.manifests_path = "ballin-octo-sansa/puppet/manifests"
     puppet.manifest_file  = "site.pp"
   end
 
