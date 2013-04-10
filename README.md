@@ -12,8 +12,8 @@ Setup and running
 1. Install [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
 1. Add this project as a submodule to your project
   * git submodule add git@github.com:texeltek/ballin-octo-sansa.git
-1. Copy the Vagrantfile from this project into the root directory as your project
-1. From the same directory as the Vagrantfile (i.e. the root directory as your project), run "vagrant up"
+1. Copy the Vagrantfile from this project into the root directory of your project
+1. From the same directory as the Vagrantfile (i.e. the root directory of your project), run "vagrant up"
   * If this is a first time run it will take a while as Vagrant does the following
     * Downloads a vm from redhat
     * provisions the VM via puppet
